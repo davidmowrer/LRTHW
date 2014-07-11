@@ -4,15 +4,21 @@ formatter = '%s %s %s %s'
 # Writes out the value assigned to each %
 puts formatter % [1, 2, 3, 4]
 # Writes out the value assigned to each %
-puts formatter % ['one', 'two', 'three', 'four']
+puts formatter % %w(one two three four)
 # Writes out the value assigned to each %
 puts formatter % [true, false, false, true]
-# Writes out the value assigned to each %, in this case it's the value assigned to formatter
+# Writes out the value assigned to each %, in this case it's the value
+# assigned to formatter
 puts formatter % [formatter, formatter, formatter, formatter]
 # Writes out the text string
-puts formatter % [
-  'I had this thing.',
-  'That you can type up right.',
-  "But it didn't sing.",
-  'So I said goodnight.'
-]
+puts formatter % %w(I had this thing.)
+puts formatter % %w(That you can type up right.)
+puts formatter % %w(But it didn't sing.)
+puts formatter % %w(So I said goodnight.)
+# I tried to make this look like below, it would only print out the first line
+# puts formatter % [
+#  'I had this thing.',
+#  'That you can type up right.',
+#  "But it didn't sing.",
+#  'So I said goodnight.'
+# ]
