@@ -1,9 +1,11 @@
 # Prints out the text string
 # Here's is some new strange stuff, remember type it exactly.
 
-# Assigns the value for the abreviation for the days of the week to variable "days".
+# Assigns the value for the abreviation for the days of the week
+# to variable "days".
 days = 'Mon Tue Wed Thu Fri Sat Sun'
-# Assigns the value for the abreviation for the months Jan - Aug to the variable "months"
+# Assigns the value for the abreviation for the months Jan - Aug
+# to the variable "months"
 months = 'Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug'
 
 # Prints out the text string on the first line.
