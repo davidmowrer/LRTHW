@@ -13,15 +13,23 @@ One for Favor format over String#%, which is ok at this time.
 Extra Credit:
 1) Add comments to ex7.rb
 2) Read ex7.rb to one of you fellow students
-3) Feel free to document the mistakes you make in Evernote. 
+3) Feel free to document the mistakes you make in Evernote.
+  This is a good suggestion.  I write them down on a paper, but the paper gets lost.
+  You actually learn from your mistakes.
 4) ...
 5) This is a lie, your instructor never makes mistakes. ;-)
+  Everyone makes mistakes, good programmers make less mistakes.  
+  
 
-Q) What happened when you changed print to puts? Why?
-
+Q) What happened when you changed print to puts?
+  It writes Cheese on one line and Burger on the next line. 
+  Why?
+  When you use puts it writes out the line and does a return to the next line.
+  Print writes out the line but does not do a return to the next line.
+  
 Q) What happened when you removed the last line of the program?
-
-The last puts prints a blank line.  If you replace print with puts you get:
-Cheese
-Burger
-Instead of CheeseBurger
+  The message Process finished with exit code 0 is written on the line below
+  CheeseBurger instead a blank line between the two.  I prefer the blank line
+  it cleaner.  You see the last line of output then a blank line and then the
+  message, it's clear the program finished.
+  
