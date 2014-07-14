@@ -10,3 +10,10 @@ It appears that text is not required to be in "".
 This was used for "one", "two", "three", "four".
 But true, false, false, true did not have "".
 Both were printed out as text.
+
+I made all the correction related to rubocop.
+
+There are no more lines in exe8.rb that are to long.  These were error for
+the text I documented what the code was doing.  There were no lines to long
+in the code.  Still not clear how to break up lines within the code.  I tried
+using the "+/" that we talked about.  That didn't work.

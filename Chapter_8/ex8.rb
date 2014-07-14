@@ -15,10 +15,13 @@ puts formatter % %w(I had this thing.)
 puts formatter % %w(That you can type up right.)
 puts formatter % %w(But it didn't sing.)
 puts formatter % %w(So I said goodnight.)
-# I tried to make this look like below, it would only print out the first line
+# I tried to make this look like below, it would only print out the first line.
+# I changed it from puts to print to print out a single line as before. That didn't
+# give you spaces between sentences.
 # puts formatter % [
 #  'I had this thing.',
 #  'That you can type up right.',
 #  "But it didn't sing.",
 #  'So I said goodnight.'
 # ]
+
